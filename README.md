@@ -2,9 +2,14 @@
 Welcome to the documentation for the AXI to APB Bridge project. Over the course of four months, our team embarked on a journey to create a basic AXI to APB Bridge with minimum signals, a fundamental piece in bridging the gap between different communication protocols within the realm of digital electronics.
 
 ## Quick links
-.
-.
-.
+- Files :
+  - [APB to AXI bridge design module](bridge.v)
+  - [Testbench module](bridge_tb.v)
+- Navigation through the report :
+  - [Project background](#project-background)
+  - [Introduction to AXI to APB bridge](#understanding-axi-to-apb-bridge)
+  - [Design using verilog RTL](#design-using-verilog-rtl)
+  - [Simulation output](#simulation-output)
 
 ## Project background
 - In the realm of digital design and system-on-chip (SoC) development, different components often communicate using various communication protocols. One such vital communication interface is the Advanced eXtensible Interface (AXI) and Advanced Peripheral Bus (APB) protocols, commonly used in FPGA and SoC design. The AXI protocol is a high-performance, high-frequency interface that enables communication between various IP blocks and memory in modern systems, while the APB protocol is a lower-frequency interface typically used for interfacing with peripheral components. Bridging these two protocols is essential for achieving seamless communication and ensuring the interoperability of different modules within a digital system.
@@ -44,6 +49,10 @@ This section provides an in-depth understanding of the bridge's architecture, fu
 
       <img width="258" alt="image" src="https://github.com/karthikkbs05/AXI-to-APB-bridge/assets/129792064/f75990f8-e18e-4e3d-a7f7-2c8826168b9d">
 
- 
+ ## Simulation output
+Compiled and simulated using iverilog. GTKwave is used as simulation viewer.
+
+
       
+![yo1](https://github.com/karthikkbs05/AXI-to-APB-bridge/assets/129792064/b9573ad0-76c5-400c-af0e-4d9186395820)
 
