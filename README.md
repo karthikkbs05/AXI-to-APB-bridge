@@ -38,7 +38,7 @@ This section provides an in-depth understanding of the bridge's architecture, fu
 - **Address Decoding:**
    - The bridge includes address decoding logic that maps AXI addresses to the respective APB slaves. This mapping ensures that AXI transactions are correctly routed to the intended APB peripherals based on the address range.
 - **Data width:**
-   - In the design the data bus of AXI and APB are of same width.
+   - In the design, the data bus of AXI and APB are of same width.
 
 ## Design using verilog RTL 
 - [bridge.v](bridge.v): Design module.
