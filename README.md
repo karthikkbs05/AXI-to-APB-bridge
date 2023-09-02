@@ -53,6 +53,9 @@ This section provides an in-depth understanding of the bridge's architecture, fu
 Compiled and simulated using iverilog. GTKwave is used as simulation viewer.
 
 
+![Screenshot from 2023-09-02 15-46-07](https://github.com/karthikkbs05/AXI-to-APB-bridge/assets/129792064/56f6255c-c991-4cde-ad8f-b0c6d2c2583f)
+
+
       
-![yo1](https://github.com/karthikkbs05/AXI-to-APB-bridge/assets/129792064/b9573ad0-76c5-400c-af0e-4d9186395820)
+
 
